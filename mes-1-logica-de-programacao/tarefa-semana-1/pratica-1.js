@@ -1,0 +1,5 @@
+let nome = "Maria Carolina"
+let email = "mctmansano@gmail.com"
+let profissão = "Analista de Qualidade"
+let idade = "28"
+let lugardosonho = "Europa"
