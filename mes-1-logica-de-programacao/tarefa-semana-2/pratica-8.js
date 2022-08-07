@@ -6,4 +6,4 @@ function numeroParOuImpar (numero) {
     }
 }
 
-numeroParOuImpar(7)
+numeroParOuImpar()
