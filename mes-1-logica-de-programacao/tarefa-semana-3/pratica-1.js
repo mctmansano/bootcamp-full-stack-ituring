@@ -3,10 +3,11 @@
     let multiplicador = 9
 
 function tabuada () {
-    
-    while (i <= 10) {
-        console.log (i + " X " + multiplicador + " = " + (i * multiplicador))
-        i += 1
-    }
+
+while (i <= 10) {
+    console.log (`${multiplicador} X ${i} = ${i * multiplicador}`)
+    i += 1
 }
+}
+console.log("Tabuada do 9")
 tabuada()
