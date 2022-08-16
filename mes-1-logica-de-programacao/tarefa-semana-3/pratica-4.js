@@ -1,5 +1,4 @@
 function series(nomedeSeries) {
-    let array = ""
     for (let i = 0; i < nomedeSeries.length; i++) {
         console.log(nomedeSeries.indexOf(nomedeSeries[i]), nomedeSeries[i])
     }
