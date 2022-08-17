@@ -13,10 +13,10 @@ function somaDeValores() {
             }
         }
     return `O valor total depositado foi de: R$ ${entrada}
-O valor total retirado foi de: R$ ${-saida}.
+O valor total retirado foi de: R$ ${-saida}
 O saldo final de sua conta foi positivo no valor de R$ ${entrada - (-saida)}`
 }
 
 
 
-console.log(somaDeValores(entrada))
+console.log(somaDeValores())
