@@ -5,6 +5,3 @@ function itemESeries(nomedeSeries, indice){
 }
 
 listaDeSeries.forEach(itemESeries)
-
-
-
