@@ -1,13 +1,12 @@
-
-function buscaSerie (lista, busca){
+function buscaSerie(lista, busca) {
 
     let indiceEncontrado
 
-    lista.forEach(function(elemento){
-        if (elemento === busca){
-             indiceEncontrado = lista.indexOf(busca)
+    lista.forEach(function (elemento) {
+        if (elemento === busca) {
+            indiceEncontrado = lista.indexOf(busca)
         }
-        
+
     })
     return indiceEncontrado
 }
