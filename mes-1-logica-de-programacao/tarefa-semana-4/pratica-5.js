@@ -6,8 +6,6 @@ function ordenando(lista) {
         return 0
 
     })
-    return lista
+    console.log(lista)
 }
-
-
-console.log(ordenando([4, 9, 7, 1, 8, 12]));
+ordenando([4, 9, 7, 1, 8, 12])

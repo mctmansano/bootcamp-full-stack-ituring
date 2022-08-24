@@ -8,9 +8,9 @@ function buscaSerie(lista, busca) {
         }
 
     })
-    return indiceEncontrado
+    console.log(indiceEncontrado)
 }
 
-console.log(buscaSerie(["Breaking Bad", "Game of Thrones", "Stranger Things", "Chernobyl", "Dexter", "The Last Dance", "This is Us"], "Dexter"))
+buscaSerie(["Breaking Bad", "Game of Thrones", "Stranger Things", "Chernobyl", "Dexter", "The Last Dance", "This is Us"], "Dexter")
 
-console.log(buscaSerie(["Breaking Bad", "Game of Thrones", "Stranger Things", "Chernobyl", "Dexter", "The Last Dance", "This is Us"], "Friends"))
+buscaSerie(["Breaking Bad", "Game of Thrones", "Stranger Things", "Chernobyl", "Dexter", "The Last Dance", "This is Us"], "Friends")
