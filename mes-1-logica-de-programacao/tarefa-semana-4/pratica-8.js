@@ -26,7 +26,7 @@ let listaFilmes = avaliacoesDeFilmes.map(function (avaliacoesDeFilmes) {
     • Duração: ${avaliacoesDeFilmes.duracao} minutos
     • Ano de publicação: ${avaliacoesDeFilmes.anoPublicacao}
     • Gênero: ${(avaliacoesDeFilmes.genero.join(", "))}
-`)
+`) 
 return 
 })
 

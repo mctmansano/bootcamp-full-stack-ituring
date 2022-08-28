@@ -32,5 +32,5 @@ function valoresRetirdos(avaliacoes) {
     }
     console.log(`O filme de melhor avaliação com nota ${notaDoMelhorAvaliado} é: ${avaliacoesDeFilmes.titulo}.`)
 }
-
+ 
 valoresRetirdos(avaliacoesDeFilmes)
