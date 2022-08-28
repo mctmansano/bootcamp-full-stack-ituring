@@ -36,3 +36,19 @@ let carrosDisponiveis = [{
     veiculo: "Ka",
     placa: "ABC8765"
   }]
+
+function maisPerto(listaDeMotorista) {
+
+    let ordenandoTempo = listaDeMotorista.sort(function(a,b) {
+      let tempoA = a.tempoEstimado
+      let tempoB = b.tempoEstimado
+      return tempoA - tempoB
+      })
+
+      let primeiroNome = ordenandoTempo[0].motorista.split(" ")[0]
+
+      return `${primeiroNome} está a caminho com o carro ${ordenandoTempo[0].veiculo} de placa ${ordenandoTempo[0].placa}. Chega em ${ordenandoTempo[0].tempoEstimado} minutos.`
+
+    }
+    
+console.log(maisPerto(carrosDisponiveis))
