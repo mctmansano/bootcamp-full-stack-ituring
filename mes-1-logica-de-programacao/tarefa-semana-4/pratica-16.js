@@ -1,9 +1,3 @@
-// Criar uma função que receba dois parâmetros: 
-// • a lista de fotos
-// • o termo de busca
-
-// Com os dados de entrada fornecidos, retorne os itens que correspondem a busca.
-
 let listaDeFotos = [{
     endereco: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2669&q=80",
     tags: ["cachorro"],
@@ -30,4 +24,13 @@ let listaDeFotos = [{
     dataCriacao: "2022-06-10T09:46:36.611Z"
   }]
 
-  function procurandoFotos (listaDeFoto, termoDeBusca)
+
+  function procurandoFotos (listaDeFoto, termoDeBusca){
+    function filtro (objeto){
+        return objeto.tags.includes(termoDeBusca)
+    }
+    let filtrarFotos = listaDeFoto.filter(filtro)
+    return filtrarFotos
+    }
+  console.log(procurandoFotos(listaDeFotos,"cachorro"))
+
