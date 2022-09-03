@@ -36,11 +36,9 @@ let movimentacoesDaConta = [{
 
 function valores(lista) {
     return lista.sort(function(a,b) {
-      //let novaData1 = new Date(a.dataMovimentacao)
-      //console.log (`${novaData1} _________________`)
+      let novaData1 = new Date(a.dataMovimentacao)
       let novaData2 = new Date(b.dataMovimentacao)
-      console.log (`******${novaData2}`)
-      //return novaData2 - novaData1
+      return novaData2 - novaData1
       })
 
     }
