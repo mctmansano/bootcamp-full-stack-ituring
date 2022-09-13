@@ -9,34 +9,51 @@
     <style>
         body {
             font-family: sans-serif;
+            margin: 0px;
         }
 
-        header, footer {
+        header,
+        footer {
             display: flex;
             justify-content: space-between;
             background-color: #AAE9FC
         }
-        .links, span {
+
+        .links,
+        span {
             margin-top: 25px;
             margin-right: 20px;
         }
 
-        #titulo, .no-meio {
+        #titulo,
+        .no-meio {
             text-align: center;
         }
 
-        .button-blue {
-            background-color: #68d6f8;
+        .my-cars {
+            display: flex;
+            margin-bottom: 5px;
+            justify-content: space-around ;
+            align-items: flex-end;
+        }
+
+        .button {
             border: none;
             border-radius: 5px 5px 5px;
             height: 25px;
         }
 
-        .button-red {
+        #red {
             background-color: #ffa4a6;
-            border: none;
-            border-radius: 5px 5px 5px;
-            height: 25px;
+
+        }
+
+        #blue {
+            background-color: #68d6f8;
+        }
+
+        main{
+            height: 100%;
         }
 
     </style>
@@ -47,10 +64,10 @@
     <header>
         <img width="75px" alt="logomarca IturingWash. Desenho do contorno de um carro na cor azul"
             src="https://ituring.com.br/favicon.ico">
-        <div class = "links">
+        <div class="links">
             <span><strong>Meus carros</strong></span>
             <span><strong>Minhas lavagens</strong></span>
-            <button class="button-blue"><strong>Sair</strong></button>
+            <button class="button" id="blue"><strong>Sair</strong></button>
         </div>
     </header>
     <main>
@@ -59,25 +76,34 @@
         </div>
         <div>
             <section>
-                <div>
-                    <h1>Nissan Kicks</h1>
-                    <h2>2018</h2>
-                    <button class="button-red"><strong>Excluir carro</strong></button>
+                <div class="my-cars">
+                    <div>
+                        <h1>Nissan Kicks</h1>
+                        <p>2018</p>
+                    </div>
+                    <div>
+                        <button class="button" id="red"><strong>Excluir carro</strong></button>
+                    </div>
                 </div>
-                <div>
-                    <h1>Chevrolet Onix</h1>
-                    <h2>2015</h2>
-                    <button class="button-red"><strong>Excluir carro</strong></button>
+                <div class="my-cars">
+                    <div>
+                        <h1>Chevrolet Onix</h1>
+                        <p>2015</p>
+                    </div>
+                    <div>
+                        <button class="button" id="red"><strong>Excluir carro</strong></button>
+                    </div>
                 </div>
             </section>
-            <div class = "no-meio">
-                <button class="button-blue">Adicionar carro</button>
+            <div class="no-meio">
+                <button class="button" id="blue">Adicionar carro</button>
             </div>
         </div>
     </main>
     <footer>
         <div>
-            <img width = "75px" alt="logomarca IturingWash. Desenho do contorno de um carro na cor azul" src="https://ituring.com.br/favicon.ico">
+            <img width="75px" alt="logomarca IturingWash. Desenho do contorno de um carro na cor azul"
+                src="https://ituring.com.br/favicon.ico">
         </div>
         <div>
             <p>Sobre</p>
@@ -85,8 +111,9 @@
             <p>Contato</p>
             <p>Termos de uso</p>
         </div>
-        <div class = "links">
-            <img width="35px" alt="logomarca Instagram. Desenho do contorno em azul" src="https://www.gov.br/mdh/pt-br/redes-sociais/instagramiconpnginstagramiconpng50px1600.png"><span>@turingwash</span>
+        <div class="links">
+            <img width="35px" alt="logomarca Instagram. Desenho do contorno em azul"
+                src="https://www.gov.br/mdh/pt-br/redes-sociais/instagramiconpnginstagramiconpng50px1600.png"><span>@turingwash</span>
             <p>2022, TuringWah, Todos os direitos reservados</p>
         </div>
     </footer>
