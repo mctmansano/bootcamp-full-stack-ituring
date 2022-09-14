@@ -10,6 +10,7 @@
         body {
             font-family: sans-serif;
             margin: 0px;
+            background-color: #eafaff;
         }
 
         header,
@@ -31,17 +32,31 @@
             text-align: center;
         }
 
+        .section{
+            padding-top: 8px;
+            padding-bottom: 8px;
+            background-color: #eafaff;
+            display: grid;
+            grid-row-gap: 8px;
+        }
+
         .my-cars {
             display: flex;
-            margin-bottom: 5px;
+            margin-left: 15%;
+            margin-right: 15%;
+            margin-bottom: 10px;
             justify-content: space-around;
             align-items: flex-end;
+            background-color: white;
+            width: 70%;
+            border-radius: 8px 8px 8px;
         }
 
         .button {
             border: none;
             border-radius: 5px 5px 5px;
             height: 25px;
+            margin-bottom: 8px;
         }
 
         #red {
@@ -54,14 +69,14 @@
         }
 
         main {
-
             height: 100%;
             background-color: #eafaff;
             margin: 0%;
+
         }
 
         footer {
-            font-size: smaller;
+            font-size: small;
             position: absolute;
             bottom: 0;
             width: 100%;
@@ -86,9 +101,9 @@
             <h1 id="titulo">Meus carros</h1>
         </div>
         <div>
-            <section>
+            <section class = "section">
                 <div class="my-cars">
-                    <div>
+                    <div class = "cars">
                         <h1>Nissan Kicks</h1>
                         <p>2018</p>
                     </div>
@@ -97,7 +112,7 @@
                     </div>
                 </div>
                 <div class="my-cars">
-                    <div>
+                    <div class = "cars">
                         <h1>Chevrolet Onix</h1>
                         <p>2015</p>
                     </div>
