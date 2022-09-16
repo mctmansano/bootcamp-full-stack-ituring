@@ -4,92 +4,13 @@
 <head>
     <title>TuringWash</title>
     <link rel="icon" href="https://ituring.com.br/favicon.ico">
-
-    <script></script>
-    <style>
-        body {
-            font-family: sans-serif;
-            margin: 0px;
-            background-color: #eafaff;
-        }
-
-        header,
-        footer {
-            display: flex;
-            justify-content: space-between;
-            background-color: #AAE9FC;
-            margin: 0%;
-        }
-
-        .links,
-        span {
-            margin-top: 25px;
-            margin-right: 20px;
-        }
-
-        #titulo,
-        .no-meio {
-            text-align: center;
-        }
-
-        .section{
-            padding-top: 8px;
-            padding-bottom: 8px;
-            background-color: #eafaff;
-            display: grid;
-            grid-row-gap: 8px;
-        }
-
-        .my-cars {
-            display: flex;
-            margin-left: 15%;
-            margin-right: 15%;
-            margin-bottom: 10px;
-            justify-content: space-around;
-            align-items: flex-end;
-            background-color: white;
-            width: 70%;
-            border-radius: 8px 8px 8px;
-        }
-
-        .button {
-            border: none;
-            border-radius: 5px 5px 5px;
-            height: 25px;
-            margin-bottom: 8px;
-        }
-
-        #red {
-            background-color: #ffa4a6;
-
-        }
-
-        #blue {
-            background-color: #68d6f8;
-        }
-
-        main {
-            height: 100%;
-            background-color: #eafaff;
-            margin: 0%;
-
-        }
-
-        footer {
-            font-size: small;
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-            height: 120px;
-        }
-    </style>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
 
 </head>
 
 <body>
     <header>
-        <img width="75px" alt="logomarca IturingWash. Desenho do contorno de um carro na cor azul"
-            src="https://ituring.com.br/favicon.ico">
+        <img class="img" alt="logomarca IturingWash. Desenho do contorno de um carro na cor azul" src="Logotipo.jpg">
         <div class="links">
             <span><strong>Meus carros</strong></span>
             <span><strong>Minhas lavagens</strong></span>
@@ -101,9 +22,9 @@
             <h1 id="titulo">Meus carros</h1>
         </div>
         <div>
-            <section class = "section">
+            <section class="section">
                 <div class="my-cars">
-                    <div class = "cars">
+                    <div>
                         <h1>Nissan Kicks</h1>
                         <p>2018</p>
                     </div>
@@ -112,7 +33,7 @@
                     </div>
                 </div>
                 <div class="my-cars">
-                    <div class = "cars">
+                    <div>
                         <h1>Chevrolet Onix</h1>
                         <p>2015</p>
                     </div>
@@ -122,14 +43,14 @@
                 </div>
             </section>
             <div class="no-meio">
-                <button class="button" id="blue">Adicionar carro</button>
+                <button class="button" id="blue"> Adicionar carro</button>
             </div>
         </div>
     </main>
     <footer>
         <div>
-            <img width="75px" alt="logomarca IturingWash. Desenho do contorno de um carro na cor azul"
-                src="https://ituring.com.br/favicon.ico">
+            <img class="img" alt="logomarca IturingWash. Desenho do contorno de um carro na cor azul"
+                src="Logotipo.jpg">
         </div>
         <div>
             <p>Sobre</p>
