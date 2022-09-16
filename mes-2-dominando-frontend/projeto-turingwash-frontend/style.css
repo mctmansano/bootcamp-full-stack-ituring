@@ -1,0 +1,88 @@
+:root {
+    --fundo: #eafaff;
+    --cabecalho: #bef7fe;
+    --branco: white;
+    --button-blue: #68d6f8;
+    --button-red: #ffa4a6;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0px;
+    background-color: var(--fundo);
+}
+
+header,
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #bef7fe;
+    margin: 0%;
+    padding: 16px 18px;
+}
+
+.img {
+    height: 40px;
+}
+
+.links,
+span {
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+#titulo,
+.no-meio {
+    text-align: center;
+}
+
+.section {
+    padding-top: 8px;
+    padding-bottom: 20px;
+    background-color: var(--fundo);
+    display: grid;
+    grid-row-gap: 20px;
+}
+
+.my-cars {
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: var(--branco);
+    border-radius: 8px 8px 8px;
+}
+
+.button {
+    font-size: 14px;
+    border: none;
+    border-radius: 5px 5px 5px;
+    height: 25px;
+    margin-bottom: 8px;
+    margin-right: 8PX;
+
+}
+
+#red {
+    background-color: var(--button-red);
+
+
+}
+
+#blue {
+    background-color: var(--button-blue);
+}
+
+main {
+    height: 100%;
+    background-color: var(--fundo);
+    margin: 0%;
+}
+
+footer {
+    font-size: 60%;
+
+}
