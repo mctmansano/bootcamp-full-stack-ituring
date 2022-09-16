@@ -1,96 +1,65 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pr-br">
 
 <head>
     <title>TuringWash</title>
     <link rel="icon" href="https://ituring.com.br/favicon.ico">
-
-    <script></script>
-    <style></style>
+    <link href="style.css" rel="stylesheet"/>
 
 </head>
 
 <body>
     <header>
-        <img alt="logomarca IturingWash. Desenho do contorno de um carro na cor azul"
-            src="https://ituring.com.br/favicon.ico"></img>
-        <span>Meus carros</span>
-        <span>Minhas lavagens</span>
-        <button>Sair</button>
+        <img class="img" alt="logomarca IturingWash. Desenho do contorno de um carro na cor azul" src="Logotipo.jpg">
+        <div class="links">
+            <span><strong>Meus carros</strong></span>
+            <span><strong>Minhas lavagens</strong></span>
+            <button class="button" id="blue"><strong>Sair</strong></button>
+        </div>
     </header>
     <main>
         <div>
-            <h1>Lavadores disponíveis próximos de você...</h1>
+            <h1 id="titulo">Adicionar carro</h1>
         </div>
-        <section>
-            <span>Lavar</span>
-            <select>
-                <option>Nissan Kicks</option>
-            </select>
-            <span>Ordenar por</span>
-            <select>
-                <option>proximidade</option>
-            </select>
-        </section>
-        <section>
-            <div>
-                <img alt="Imagem do usuário" src="https://filestore.community.support.microsoft.com/api/images/6061bd47-2818-4f2b-b04a-5a9ddb6f6467?upload=true"></img>
-                <h1>João Pereira</h1>
+        <div>
+            <section class="section">
+                <div class="my-cars__lista">
+                    <div>
+                        <p><strong>Fabricante</strong></p>
+                        <select></select>
+                    </div>
+                    <div>
+                        <p><strong>Modelo</strong></p>
+                        <select></select>
+                    </div>
+                    <div class="select__ano">
+                        <p><strong>Ano</strong></p>
+                        <select></select>
+                    </div>
+                </div>
+            </section>
+            <div class="no-meio">
+                <button class="button" id="blue"> Adicionar carro</button>
             </div>
-            <div>
-                <h1>Nota 4.5 (998 avaliações)</h1>
-                <h1>R$ 80</h1>
-                <span>Ver avaliações</span>
-                <button>Lavar meu carro</button>
-            </div>
-            <div>
-                <img alt="Imagem do usuário" src="https://filestore.community.support.microsoft.com/api/images/6061bd47-2818-4f2b-b04a-5a9ddb6f6467?upload=true"></img>
-                <h1>Joana Santos</h1>
-            </div>
-            <div>
-                <h1>Nota 4.7 (489 avaliações)</h1>
-                <h1>R$ 75</h1>
-                <span>Ver avaliações</span>
-                <button>Lavar meu carro</button>
-            </div>
-            <div>
-                <img alt="Imagem do usuário" src="https://filestore.community.support.microsoft.com/api/images/6061bd47-2818-4f2b-b04a-5a9ddb6f6467?upload=true"></img>
-                <h1>Matheus Oliveira</h1>
-            </div>
-            <div>
-                <h1>Nota 4.3 (782 avaliações)</h1>
-                <h1>R$ 90</h1>
-                <span>Ver avaliações</span>
-                <button>Lavar meu carro</button>
-            </div>
-            <div>
-                <img alt="Imagem do usuário" src="https://filestore.community.support.microsoft.com/api/images/6061bd47-2818-4f2b-b04a-5a9ddb6f6467?upload=true"></img>
-                <h1>Pedro Sampaio</h1>
-            </div>
-            <div>
-                <h1>Nota 4.1 (801 avaliações)</h1>
-                <h1>R$ 60</h1>
-                <span>Ver avaliações</span>
-                <button>Lavar meu carro</button>
-            </div>
-        </section>
-        <footer>
-            <div>
-                <img alt="logomarca IturingWash. Desenho do contorno de um carro na cor azul" src="https://ituring.com.br/favicon.ico"></img>
-            </div>
-            <div>
-                <p>Sobre</p>
-                <p>FAQ</p>
-                <p>Contato</p>
-                <p>Termos de uso</p>
-            </div>
-            <div>
-                <img alt="logomarca Instagram. Desenho do contorno em azul" src="https://www.gov.br/mdh/pt-br/redes-sociais/instagramiconpnginstagramiconpng50px1600.png"></img>
-                <p>@turingwash</p>
-                <p>2022, TuringWah, Todos os direitos reservados</p>
-            </div>
-        </footer>
+        </div>
     </main>
+    <footer>
+        <div>
+            <img class="img" alt="logomarca IturingWash. Desenho do contorno de um carro na cor azul"
+                src="Logotipo.jpg">
+        </div>
+        <div>
+            <p>Sobre</p>
+            <p>FAQ</p>
+            <p>Contato</p>
+            <p>Termos de uso</p>
+        </div>
+        <div class="links">
+            <img width="35px" alt="logomarca Instagram. Desenho do contorno em azul"
+                src="https://www.gov.br/mdh/pt-br/redes-sociais/instagramiconpnginstagramiconpng50px1600.png"><span>@turingwash</span>
+            <p>2022, TuringWah, Todos os direitos reservados</p>
+        </div>
+    </footer>
 </body>
 
 </html>
