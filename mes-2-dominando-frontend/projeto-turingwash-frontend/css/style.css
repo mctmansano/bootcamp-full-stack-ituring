@@ -4,7 +4,7 @@ html, body {
 
 :root {
     --fundo:#EAF7FF;
-    --cabecalho:#DCFCFE;
+    --cabecalho: #BCF7FF;
     --branco: white;
     --button-blue: #BCF7FF;
     --button-red: #FF9B9B;
@@ -22,7 +22,6 @@ header{
     font-size: 70%;
 }
 
-
 header,
 footer {
     height: 13%;
@@ -30,8 +29,16 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #bef7fe;
+    background-color: var(--cabecalho);
     margin: 0%;
+}
+
+.exit-button{
+    font-size: 90%;
+    border: none;
+    border-radius: 5px 5px 5px;
+    height: 25px;
+    background-color: #8FF2FF;
 }
 
 .main{
@@ -256,7 +263,7 @@ select{
 
 }
 
-.button__blue{
+.button__blue {
     font-size: 90%;
     border: none;
     border-radius: 5px 5px 5px;
