@@ -1,0 +1,167 @@
+html,
+body {
+    height: 100%;
+}
+
+:root {
+    --fundo: #EAF7FF;
+    --cabecalho: #BCF7FF;
+    --branco: white;
+    --button-blue: #BCF7FF;
+    --button-red: #FF9B9B;
+    --color-price: #DCFCFE;
+    --font: sans-serif
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0px;
+    background-color: var(--fundo);
+}
+
+header {
+    font-size: 70%;
+}
+
+header,
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--cabecalho);
+    margin: 0%;
+}
+
+.exit-button {
+    font-weight: bold ;
+    border: none;
+    font-size: 12px;
+    border-radius: 5px 5px 5px;
+    height: 25px;
+    background-color: #8FF2FF;
+}
+
+.main {
+    min-height: 100%;
+}
+
+.img {
+    height: 40px;
+    object-fit: contain;
+    margin-left: 5px;
+}
+
+.links {
+    font-size: 12px;
+    font-weight: bold;
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+span {
+    margin: 0;
+}
+
+#title{
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+#title,
+.center{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.section-white {
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 80%;
+    background-color: var(--branco);
+    display: grid;
+    grid-row-gap: 20px;
+    max-width: 1280px;
+    margin: 0 auto;
+    border-radius: 8px 8px 8px;
+}
+
+.my-cars-list {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 8px 8px 8px;
+}
+
+.padding-bottom{
+    padding-bottom: 15px;
+    
+}
+
+select {
+    width: 280px;
+    height: 15px;
+    border-radius: 10px 10px 10px;
+    border-color: #cecece;
+
+}
+
+.select-year {
+    width: 100px;
+    height: 15px;
+    border-radius: 10px 10px 10px;
+    border-color: #cecece;
+}
+
+
+.button-blue {
+    font-size: 12px;
+    border: none;
+    border-radius: 5px 5px 5px;
+    height: 25px;
+    background-color: var(--button-blue);
+
+}
+
+main {
+    height: 100%;
+    background-color: var(--fundo);
+    margin: 0%;
+}
+
+
+.links-footer, .column-left {
+    font-size: 9px;
+    margin: 5px;
+}
+
+.links-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+.img__insta {
+    width: 18px;
+    margin-bottom: 5px;
+
+}
+
+.link-instagram {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.instagram-id{
+    padding-left: 4px;
+    padding-bottom: 2px;
+}

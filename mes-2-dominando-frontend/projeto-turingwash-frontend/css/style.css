@@ -1,15 +1,29 @@
-html, body {
+@media screen and (max-width: 768px) {
+    footer {
+        display: flex;
+        align-items: stretch;
+        flex-direction: column;
+
+    }
+
+    .column-left {
+    margin-left: 00px; ;
+    }
+}
+
+html,
+body {
     height: 100%;
 }
 
 :root {
-    --fundo:#EAF7FF;
+    --fundo: #EAF7FF;
     --cabecalho: #BCF7FF;
     --branco: white;
     --button-blue: #BCF7FF;
     --button-red: #FF9B9B;
-    --color-price:#DCFCFE;
-
+    --color-price: #DCFCFE;
+    --font: sans-serif
 }
 
 body {
@@ -18,7 +32,7 @@ body {
     background-color: var(--fundo);
 }
 
-header{
+header {
     font-size: 70%;
 }
 
@@ -33,7 +47,7 @@ footer {
     margin: 0%;
 }
 
-.exit-button{
+.exit-button {
     font-size: 90%;
     border: none;
     border-radius: 5px 5px 5px;
@@ -41,7 +55,7 @@ footer {
     background-color: #8FF2FF;
 }
 
-.main{
+.main {
     min-height: 100%;
 }
 
@@ -50,7 +64,7 @@ footer {
     object-fit: contain;
 }
 
-.image-user{
+.image-user {
     height: 100%;
     width: 90px;
     object-fit: contain;
@@ -58,38 +72,46 @@ footer {
     margin-left: 20px;
 }
 
-.links,
+.links {
+    font-weight: bold;
+    margin-top: 25px;
+    margin-right: 3px;
+}
+
+
 span {
     margin-top: 25px;
     margin-right: 3px;
 }
 
-#titulo,
+#title,
 .no-meio {
     text-align: center;
+    font-weight: bold;
     font-size: 80%;
     margin-top: 10px;
 }
 
-.options{
+.options {
     display: flex;
     justify-content: space-between;
     padding: 32px;
 }
 
-.fixed-text{
+.fixed-text {
     margin: 0;
     padding: 10px;
     font-size: 90%;
 }
 
-.abreast{
+.abreast {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.select-car, .select-localization {
+.select-car,
+.select-localization {
     background-color: transparent;
     border: none;
     border-radius: 0%;
@@ -108,7 +130,7 @@ span {
     grid-row-gap: 20px;
 }
 
-.section__white {
+.section-white {
     padding-top: 8px;
     padding-bottom: 20px;
     width: 80%;
@@ -116,8 +138,8 @@ span {
     display: grid;
     grid-row-gap: 20px;
     max-width: 1280px;
-    margin:0 auto;
-    
+    margin: 0 auto;
+
 }
 
 .my-cars {
@@ -130,6 +152,7 @@ span {
     background-color: var(--branco);
     border-radius: 8px 8px 8px;
 }
+
 .my-cars__lista {
     display: flex;
     flex-direction: column;
@@ -143,7 +166,7 @@ span {
     padding-bottom: 20px;
 }
 
-.my-cars__lista--background-white{
+.my-cars__lista--background-white {
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -157,11 +180,11 @@ span {
     background-color: var(--branco);
 }
 
-.lado-a-lado{
+.lado-a-lado {
     display: flex;
     justify-content: space-between;
     font-size: 12px;
-    padding-bottom: 10px;  
+    padding-bottom: 10px;
     margin-bottom: 10px;
     background-color: var(--branco);
 }
@@ -177,7 +200,7 @@ span {
     border-radius: 8px 8px 8px;
 }
 
-.list-washers{
+.list-washers {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -185,7 +208,7 @@ span {
     background-color: var(--branco);
 }
 
-.washer-data{
+.washer-data {
     font-size: 80%;
     width: 40%;
     margin-right: 10px;
@@ -197,56 +220,57 @@ span {
 
 }
 
-.select-choice{
+.select-choice {
     display: flex;
     justify-content: space-between;
 }
 
-.price{
+.price {
     margin-top: 0;
-    background-color: var(--color-price) ;
+    background-color: var(--color-price);
 }
 
-.assessments{
+.assessments {
     margin: 0;
     display: flex;
     align-items: center;
 }
 
-.abreast__washer-data{
+.abreast__washer-data {
     width: 50%;
     display: flex;
-    font-size: 90%; 
+    font-size: 90%;
     background-color: var(--branco);
 }
 
-.name{
+.name {
     width: 150px;
 }
 
-.carro{
+.carro {
     padding-left: 6vw;
 }
 
-.sobre{
-    margin:0%;
+.sobre {
+    margin: 0%;
     display: flex;
     align-items: flex-end;
     flex-direction: column;
     justify-content: space-between;
 }
-.top{
+
+.top {
     margin-top: 0px;
 }
 
-select{
+select {
     width: 60%;
     height: 30%;
     border-radius: 10px 10px 10px;
     border-color: #cecece;
 }
 
-.select__ano{
+.select__ano {
     width: 30%;
     height: 30%;
     border-radius: 10px 10px 10px;
@@ -290,10 +314,10 @@ footer {
     font-size: 60%;
 }
 
-.img__insta{
+.img__insta {
     width: 35px;
 }
 
-.link-instagram{
+.link-instagram {
     display: flex;
 }

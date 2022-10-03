@@ -4,7 +4,8 @@
 <head>
     <title>TuringWash</title>
     <link rel="icon" href="https://ituring.com.br/favicon.ico">
-    <link href="css/style.css" rel="stylesheet"/>
+    <link href="css/reset.css" rel="stylesheet" type="text/css"/>
+    <link href="css/style.adicionar-carro.css" rel="stylesheet" type="text/css"/>
 
 </head>
 
@@ -12,8 +13,8 @@
     <header>
         <img class="img" alt="logomarca IturingWash. Desenho do contorno de um carro na cor azul" src="img/turingwash-logo.svg">
         <div class="links">
-            <span><strong>Meus carros</strong></span>
-            <span><strong>Minhas lavagens</strong></span>
+            <span>Meus carros</span>
+            <span>Minhas lavagens</span>
             <a href="">
                 <button class="exit-button"><strong>Sair</strong></button>
             </a>
@@ -21,27 +22,27 @@
     </header>
     <main>
         <div>
-            <h1 id="titulo">Adicionar carro</h1>
+            <h1 id="title">Adicionar carro</h1>
         </div>
         <div>
-            <section class="section__white">
-                <div class="my-cars__lista">
-                    <div>
+            <section class="section-white">
+                <div class="my-cars-list">
+                    <div class="padding-bottom">
                         <p><strong>Fabricante</strong></p>
                         <select></select>
                     </div>
-                    <div>
+                    <div class="padding-bottom">
                         <p><strong>Modelo</strong></p>
                         <select></select>
                     </div>
-                    <div class="select__ano">
+                    <div class="padding-bottom">
                         <p><strong>Ano</strong></p>
-                        <select></select>
+                        <select class="select-year"></select>
                     </div>
                 </div>
             </section>
-            <div class="no-meio">
-                <button class="button" id="blue"> Adicionar carro</button>
+            <div class="center">
+                <button class="button-blue">Adicionar carro</button>
             </div>
         </div>
     </main>
@@ -50,19 +51,19 @@
             <img class="img" alt="logomarca IturingWash. Desenho do contorno de um carro na cor azul"
                 src="img/turingwash-logo.svg">
         </div>
-        <div>
-            <p>Sobre</p>
-            <p>FAQ</p>
-            <p>Contato</p>
+        <div class="column-left">
+            <p>Sobre</p></br>
+            <p>FAQ</p></br>
+            <p>Contato</p></br>
             <p>Termos de uso</p>
         </div>
-        <div class="links">
+        <div class="links-footer">
             <div class="link-instagram">
                 <img class="img__insta" alt="logomarca Instagram. Desenho do contorno em azul"
                 src="img/logo-instagram.webp"></img>
-                <p>@turingwash</p>
+                <p class="instagram-id">@turingwash</p>
             </div>
-            <p>2022. TuringWah. Todos os direitos reservados</p>
+            <div>2022. TuringWah. Todos os direitos reservados</div>
         </div>
     </footer>
 </body>
