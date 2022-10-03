@@ -38,6 +38,7 @@ footer {
     height: 40px;
     object-fit: contain;
     margin-left: 5px;
+    margin-bottom: 5px;
 }
 
 .links {
@@ -69,8 +70,6 @@ footer {
     padding-top: 8px;
     padding-bottom: 20px;
     background-color: var(--fundo);
-    display: grid;
-    grid-row-gap: 20px;
 }
 
 .list-my-cars {
@@ -94,8 +93,12 @@ footer {
     border-radius: 8px 8px 8px;
 }
 
-.center{
-    align-items: baseline;
+.washer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    align-items: center;
+    margin-left: 10px;
 }
 
 .name {
@@ -103,20 +106,28 @@ footer {
 }
 
 .car {
-    padding-left: 6vw;
+    padding-left: 4vw;
 }
 
 .sobre {
+    height: 60px;
     margin: 0%;
     display: flex;
     align-items: flex-end;
     flex-direction: column;
     justify-content: space-between;
+    
+}
+
+span{ 
+    padding-right:14px;
+
 }
 
 .price {
     font-weight: bold;
     padding: 6px;
+    padding-right: 14px;
     border-radius: 0 8px 0 0;
     margin: 0;
     background-color: var(--color-price);

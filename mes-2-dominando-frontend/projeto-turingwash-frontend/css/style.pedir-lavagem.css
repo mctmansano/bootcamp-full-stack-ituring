@@ -1,6 +1,6 @@
 html,
 body {
-    height: 120vh;
+    height: 100vh;
 }
 
 :root {
@@ -51,6 +51,7 @@ footer {
     height: 40px;
     object-fit: contain;
     margin-left: 5px;
+    margin-bottom: 5px;
 }
 
 .image-user {
@@ -194,7 +195,7 @@ span {
 }
 
 
-.button__blue {
+.blue-button {
     font-size: 90%;
     border: none;
     border-radius: 5px 5px 5px;

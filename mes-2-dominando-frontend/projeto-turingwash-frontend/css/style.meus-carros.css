@@ -1,6 +1,6 @@
 html,
 body {
-    height: 100%;
+    height: 100vh;
 }
 
 :root {
@@ -62,68 +62,64 @@ footer {
     align-items: center;
 }
 
-span {
-    margin: 0;
-}
-
-#title{
-    padding-bottom: 10px;
-    font-size: 16px;
-}
 
 #title,
-.center{
+.no-meio {
     text-align: center;
     font-weight: bold;
+    font-size: 16px;
     margin-top: 10px;
 }
 
-.section-white {
-    font-weight: bold;
-    padding-top: 20px;
+.section {
+    padding-top: 8px;
     padding-bottom: 20px;
-    width: 80%;
-    background-color: var(--branco);
+    background-color: var(--fundo);
     display: grid;
     grid-row-gap: 20px;
-    max-width: 1280px;
-    margin: 0 auto;
-    border-radius: 8px 8px 8px;
 }
 
-.my-cars-list {
+.my-cars {
     display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: center;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    height: 80px;
+    justify-content: space-between;
+    background-color: var(--branco);
     border-radius: 8px 8px 8px;
 }
 
-.padding-bottom{
-    padding-bottom: 15px;
-    
+h1{
+    font-weight: bold;
+    padding-bottom: 5px;
 }
 
-select {
-    width: 280px;
-    height: 15px;
-    border-radius: 10px 10px 10px;
-    border-color: #cecece;
+.margin{
+    margin: 10px;
+}
+
+.end{
+    display: flex;
+    align-items: flex-end;
 
 }
 
-.select-year {
-    width: 100px;
-    height: 15px;
-    border-radius: 10px 10px 10px;
-    border-color: #cecece;
+.red-button {
+    font-size: 14px;
+    padding: 10px auto;
+    border: none;
+    border-radius: 5px 5px 5px;
+    height: 25px;
+    margin-bottom: 8px;
+    margin-right: 8PX;
+    background-color: #FF9B9B;
+    font-weight: bold;
+
 }
 
-
-.button-blue {
-    font-size: 12px;
+.blue-button {
+    font-size: 90%;
     border: none;
     border-radius: 5px 5px 5px;
     height: 25px;
