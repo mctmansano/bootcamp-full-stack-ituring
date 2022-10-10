@@ -1,6 +1,6 @@
 html,
 body {
-    height: 120vh;
+    height: auto;
 }
 
 :root {
@@ -171,4 +171,28 @@ main {
 .instagram-id{
     padding-left: 4px;
     padding-bottom: 2px;
+}
+
+@media screen and (max-width: 768px) {
+
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-img{
+        height: 70px;
+        object-fit: contain;
+    }
+
+    .column-left{
+        width: 100%;
+        justify-content: flex-start;
+        font-size: 14px;
+    }
+
+    .links-footer{
+        width: 100%;
+        justify-content: flex-end;
+        text-align: end;
+    }
 }
