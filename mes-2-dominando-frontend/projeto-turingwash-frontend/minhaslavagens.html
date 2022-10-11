@@ -11,14 +11,22 @@
 
 <body>
     <header>
-        <img class="img" alt="logomarca IturingWash. Desenho do contorno de um carro na cor azul" src="img/turingwash-logo.svg">
-        <div class="links">
-            <span><strong>Meus carros</strong></span>
-            <span><strong>Minhas lavagens</strong></span>
-            <a href="">
-                <button class="exit-button"><strong>Sair</strong></button>
-            </a>
-        </div>
+        <nav role="navigation">
+            <div id="menuToggle">
+              <input type="checkbox" />
+              <div><span></span>
+              <span></span>
+              <span></span></div>
+            <div class="header"><img class="img" alt="logomarca IturingWash. Desenho do contorno de um carro na cor azul" src="img/turingwash-logo.svg">
+            <ul id="menu">
+                <a href="#"><li>Meus carros</li></a>
+                <a href="#"><li>Minhas lavagens</li></a>
+                <a href="#" target="_blank"><li><button class="exit-button">Sair</button></li></a>
+            </ul>
+            </div>
+            <div class="invisible"></div>
+            </div>
+        </nav> 
     </header>
     <main>
         <div>
