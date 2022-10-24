@@ -55,8 +55,8 @@
                 </div>
                 <div class="washer-data">
                     <div class="select-choice1">
-                        <span class="top"><strong>Nota 4.5 (998 avaliações)</strong></span>
-                        <span class="price"><strong>R$ 80</strong></span>
+                        <span class="top">Nota 4.5<span></span><span id="reveiws">(998 avaliações)</span></span>
+                        <span class="price">R$ 80</span>
                     </div>
                     <div class="select-choice2">
                         <span class="assessments">Ver avaliações</span>
@@ -146,6 +146,50 @@
         </div>
     </footer>
     <script src="js/usuario.js"></script>
-</body>
+    <script src="js/lavadores.js"></script>
+    <script>
+
+function showInputsValues(){
+    const name = lavadores[0].nome.value
+    const nota = lavadores.nota[0].value
+    const avaliacoes = lavadores.qtdAvaliacoes[0].value
+    const preco = lavadores.valorCobrado[0].value
+    console.log({name, nota})
+}
+
+function createWashersCard (name, grade, reviews, price){
+    const divElementListWashers = document.createElement('div')
+    divElementListWashers.class = 'list-washers'
     
+    divElementListWashers.innerHTML = `
+        <div class="list-washers">
+            <div class="abreast-washer-data">
+                <span class="assessments2">Ver avaliações</span>
+                <img alt="Imagem do usuário" src="img/profile.png" class="image-user"></img>
+                <span class="name">${name}</span>
+            </div>
+            <div class="washer-data">
+                <div class="select-choice1">
+                    <span class="top">Nota ${grade} (${reviews} avaliações)</span></span>
+                    <span class="price">R$ ${price}</span>
+                </div>
+                <div class="select-choice2">
+                    <span class="assessments">Ver avaliações</span>
+                    <a href="">
+                        <button class="blue-button">Lavar meu carro</button>
+                    </a>
+            </div>    
+        </div>`
+
+    const sectionElementWashersData = document.querySelector ('.section-washers-data')
+    sectionElementWashersData.appendChild(divElementListWashers)
+    }
+
+    lavadores.forEach(item => {
+        createWashersCard(lavadores.nome, lavadores.nota, lavadores.qtdAvaliacoes, lavadores.valorCobrado)
+    });
+    </script>
+</body>
+
+
 </html>
