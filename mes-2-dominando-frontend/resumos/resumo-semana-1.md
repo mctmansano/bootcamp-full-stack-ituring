@@ -205,7 +205,7 @@ Em seguida, elas são adicionadas em backlog e executadas de acordo com sua prio
 Assim que uma User Story é selecionada para ser implementada, é comum uma pessoa ou equipe de UI/UX definir como será a tela que irá resolver o problema proposto pela User Story.
 
 
-# Aula 2 - Como aprimorar e debugar o código HTML
+# Aula 10 - Como aprimorar e debugar o código HTML
 
 ## 🎯 Objetivos:
 * Entender o conceito de HTML semântico;
